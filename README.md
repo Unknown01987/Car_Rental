@@ -52,7 +52,7 @@ Follow these steps to run the project locally:
    ```bash
    cd backend
    npm install
-   cd ..
+   cd client
    npm install
 
 3. Set up environment variables:
@@ -67,11 +67,11 @@ PORT=5000
    - Backend :
      ```bash
      cd backend
-     npm start
+     npm server run
      ```
    - Frontend :
      ```bash
-     cd ..
+     cd client
      npm start
      ```
 
